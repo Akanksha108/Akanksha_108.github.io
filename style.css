@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: "Merriweather", sans-serif;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -74,6 +78,16 @@
 .food_image{
     width: 100%;
     border-radius: 8px 8px 0 0;
+}
+
+.food_menu_card_description{
+    padding: 20px;
+}
+
+.explore_menu_text{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
 }
 
 @media screen and (min-width:768px) {
