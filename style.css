@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_brand{
+    width: 100px;
+}
+
+.navbar_logo{
+    width: 100px;
+}
+
+.nav_item{
+    background-image: linear-gradient(to right,
+                      #ff512f  0%,
+                      #dd2476 51%,
+                      #ff512f  100%);
+
+                      color: white;
+                      border: none;
+                      padding: 12px;
+                      border-radius: 6px;
+}
+
+.button_primary{
+    background-image: linear-gradient(to right,
+                      #ff512f  0%,
+                      #dd2476 51%,
+                      #ff512f  100%);
+
+                      color: white;
+                      border: none;
+                      padding: 12px;
+                      border-radius: 6px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero_container{
+    width: 100%;
+}
+
+.hero_img_container{
+    width: 100%;
+}
+
+.hero_image{
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .navbar_brand{
+        width: 200px;
+    }
+
+    .navbar_logo{
+        width: 100%;
+    }
+
+    .nav_item{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .hero_container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:1020px) {
+    .container{
+        max-width: 1000px;
+    }
+
+    .hero_text{
+        font-size: 30px;
+        color: #1d3557;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container{
+        max-width: 1300px;
+    }
+    .hero_text{
+        font-size: 40px;
+        color: #1d3557;
+        margin: 20px 0;
+    }
+    .button_primary{
+        padding: 23px;
+        font-size: 25px;
+    }
+}
+
+.explore_menu_container{
+    position: relative;
+}
