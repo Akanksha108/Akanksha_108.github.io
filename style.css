@@ -50,6 +50,7 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    background-color: rgb(200, 233, 241);
 }
 
 .hero_container{
@@ -139,6 +140,25 @@ body{
 .restaurant_description{
     margin-top: 20px;
 }
+.email{
+    width: 100%;
+    margin-top: 40px;
+}
+.email_form{
+    width: 100%;
+    text-align: center;
+}
+.email_heading{
+    font-size: 20px;
+    padding-left: 60px;
+    width: 260px;
+}
+.email_input{
+    border: 3px solid red;
+}
+.email_form .button_primary{
+    padding: 8px;
+}
 
 @media screen and (min-width:768px) {
     .navbar{
@@ -196,7 +216,12 @@ body{
     .restaurant_flex{
         flex: 50%;
     }
-   
+    .email_heading{
+        font-size: 30px;
+        padding-left: 230px;
+        width: 500px;
+        height: 40px;
+    }
 }
 
 @media screen and (min-width:1020px) {
@@ -211,6 +236,16 @@ body{
     }
     .explore_menu_text{
         font-size: 50px;
+    }
+    .email_heading{
+        font-size: 30px;
+        padding-left: 298px;
+        width: 500px;
+        height: 50px;
+    }
+    .email_input{
+        width:290px ;
+        height: 20px ;
     }
 }
 
@@ -230,6 +265,16 @@ body{
     .explore_menu_list{
         gap: 20px;
         padding: 0 20px;
+    }
+    .email_heading{
+        font-size: 30px;
+        padding-left: 360px;
+        width: 700px;
+        height: 40px;
+    }
+    .email_input{
+        width:380px;
+        height: 32px;
     }
 }
 
