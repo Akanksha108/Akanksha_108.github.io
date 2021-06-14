@@ -5,7 +5,13 @@
 }
 
 body{
-    font-family: "Merriweather", sans-serif;
+    font-family: "Merriweather", sans-serif; 
+    background-color: #ebf2ff;
+    overflow-x: hidden;  
+}
+
+header{
+    background-color: white;
 }
 
 .navbar{
@@ -50,7 +56,6 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    /*background-color: rgb(200, 233, 241);*/
 }
 
 .hero_container{
@@ -59,10 +64,26 @@ body{
 
 .hero_img_container{
     width: 100%;
+    position: relative;
 }
 
 .hero_image{
     width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
+.hero_bg_pattern_image{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: -2;
+}
+
+.hero_shape_image{
+    top: 30px;
+    left: 0px;
+    z-index: -2;
 }
 
 .explore_menu_container{
