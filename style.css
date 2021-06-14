@@ -111,6 +111,35 @@ body{
     transform: skewY(-5deg);
 }
 
+
+.restaurant_1_image, .restaurant_2_image, .restaurant_3_image, .restaurant_4_image{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.restaurant_flex{
+    width: 100%;
+}
+
+.restaurant_description{
+    width: 100%;
+}
+
+.restaurant_1_image, .restaurant_4_image{
+    height: 150px;
+    width : 100%;
+}
+
+.restaurant_2_image, .restaurant_3_image{
+    height: 200px;
+    width : 100%;
+}
+
+.restaurant_description{
+    margin-top: 20px;
+}
+
 @media screen and (min-width:768px) {
     .navbar{
         justify-content: space-between;
@@ -144,6 +173,30 @@ body{
     #pizza_card{
         margin-top: -20px;
     } 
+    .restaurant_container{
+        display: flex;
+        margin-top: 60px;
+    }
+    .restaurant_flex_row_one, .restaurant_flex_row_two{
+        display: flex;
+        gap: 4px;
+    }
+    .restaurant_flex_row_one{
+        margin-bottom: 1px;
+        align-items: baseline;
+    }
+    .restaurant_description{
+        text-align: center;
+        font-size: 40px;
+        align-items: center;
+        padding-top: 50px;
+        margin-top: 30px; 
+        flex: 40%;
+    }
+    .restaurant_flex{
+        flex: 50%;
+    }
+   
 }
 
 @media screen and (min-width:1020px) {
