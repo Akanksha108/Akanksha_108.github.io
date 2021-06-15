@@ -133,6 +133,16 @@ header{
     transform: skewY(-5deg);
 }
 
+.explore_menu_view_more .button_primary{
+    transition: width 2s ease;
+}
+
+.button_transition:hover{
+    width: 500px;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, white, transparent);
+    color: palevioletred;
+}
 
 .restaurant_1_image, .restaurant_2_image, .restaurant_3_image, .restaurant_4_image{
     width: 100%;
